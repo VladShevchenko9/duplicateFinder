@@ -1,0 +1,14 @@
+{
+  "name": "duplicatefinder",
+  "version": "1.0.0",
+  "description": "Script for finding duplicate files by content.",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/duplicateFinder.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
